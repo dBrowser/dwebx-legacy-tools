@@ -1,7 +1,7 @@
 {
-  "name": "@beaker/dat-legacy-tools",
+  "name": "@dbrowser/dwebx-legacy-tools",
   "version": "1.0.0",
-  "description": "Tools to access legacy dats stored in Beaker",
+  "description": "Tools to access legacy dvaults stored in DBrowserX",
   "main": "index.js",
   "bin": "bin.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "diff-file-tree": "^2.3.2",
-    "hyperdrive": "^9.16.0",
-    "pauls-dat-api": "^8.1.0",
+    "ddrive": "git://github.com/distributedweb/ddrive.git#c587260d0b1c783314b037a3d28be499258b35d1",
+    "dbrowser-legacy-api": "git://github.com/distributedweb/dbrowser-legacy-api.git#257e9cbae12e294a6b3d03fb2b464d805ec2c764",
     "random-access-file": "^2.0.1",
     "random-access-indexed-file": "^2.0.0",
     "sodium-signatures": "^2.1.1",

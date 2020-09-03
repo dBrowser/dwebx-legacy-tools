@@ -1,7 +1,7 @@
 const path = require('path')
-const hyperdrive = require('hyperdrive')
-const datStorage = require('./dat-storage')
-const pda = require('pauls-dat-api')
+const ddrive = require('ddrive')
+const datStorage = require('./dwebx-storage')
+const pda = require('dbrowser-legacy-api')
 const dft = require('diff-file-tree')
 
 var BASE_PATH = undefined
@@ -19,12 +19,12 @@ exports.exportFiles = async function (key, targetPath) {
 }
 
 function getArchiveMetaPath (key) {
-  return path.join(BASE_PATH, 'Dat', 'Archives', 'Meta', key.slice(0, 2), key.slice(2))
+  return path.join(BASE_PATH, 'DWebX', 'Archives', 'Meta', key.slice(0, 2), key.slice(2))
 }
 
 async function loadArchive (key) {
   var metaPath = getArchiveMetaPath(key)
-  var archive = hyperdrive(datStorage.create(metaPath), Buffer.from(key, 'hex'), {sparse: true})
+  var archive = ddrive(datStorage.create(metaPath), Buffer.from(key, 'hex'), {sparse: true})
   archive.on('error', err => {
     throw err
   })
