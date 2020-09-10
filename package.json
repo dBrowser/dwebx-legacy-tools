@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "diff-file-tree": "^2.3.2",
-    "ddrive": "git://github.com/distributedweb/ddrive.git#c587260d0b1c783314b037a3d28be499258b35d1",
+    "ddrive": "git://github.com/distributedweb/ddrive.git#63fdbc3fa3642f1c14c5caefbf58708c687e24a3",
     "dbrowser-legacy-api": "git://github.com/distributedweb/dbrowser-legacy-api.git#fb113d96e635f22f5456da01629493c8f3bfd846",
     "random-access-file": "^2.0.1",
     "random-access-indexed-file": "^2.0.0",
