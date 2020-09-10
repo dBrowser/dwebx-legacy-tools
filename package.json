@@ -12,7 +12,7 @@
   "dependencies": {
     "diff-file-tree": "^2.3.2",
     "ddrive": "git://github.com/distributedweb/ddrive.git#c587260d0b1c783314b037a3d28be499258b35d1",
-    "dbrowser-legacy-api": "git://github.com/distributedweb/dbrowser-legacy-api.git#257e9cbae12e294a6b3d03fb2b464d805ec2c764",
+    "dbrowser-legacy-api": "git://github.com/distributedweb/dbrowser-legacy-api.git#fb113d96e635f22f5456da01629493c8f3bfd846",
     "random-access-file": "^2.0.1",
     "random-access-indexed-file": "^2.0.0",
     "sodium-signatures": "^2.1.1",
