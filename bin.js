@@ -32,5 +32,5 @@ async function run () {
 run()
 
 function usage () {
-  console.log('Usage: bin.js {dbrowserx-data-dir} {key} {export-target-dir}')
+  console.log('Usage: bin.js {dbrowser-data-dir} {key} {export-target-dir}')
 }
